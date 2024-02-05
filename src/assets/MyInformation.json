@@ -4,29 +4,39 @@
       "Name": "My code",
       "List": [
         {
-          "Name": "GitHub profile",
-          "Value": "https://github.com/VitaliyLV"
+          "Name": "GitHub",
+          "Value": "https://github.com/VitaliyLV",
+          "Description": "My GitHub profile with pet and test projects"
         },
         {
           "Name": "Backend API project",
-          "Value": "https://github.com/VitaliyLV/HotelsWebAPI"
+          "Value": "https://github.com/VitaliyLV/HotelsWebAPI",
+          "Description": "Hotels listing API using .NET 7"
         },
         {
-          "Name": "Solving algorithms issues project",
-          "Value": "https://github.com/VitaliyLV/DataStructuresIssues"
+          "Name": "Solving algorithms",
+          "Value": "https://github.com/VitaliyLV/DataStructuresIssues",
+          "Description": "Console .NET project to solve data structure and algorithms issues"
         }
       ]
     },
     {
       "Name": "Online projects",
-      "List": [{ "Name": "Quidditch game", "Value": "" }]
+      "List": [
+        {
+          "Name": "Quidditch game",
+          "Value": "",
+          "Description": "A simple HTML + Vanilla JavaScript project for keeping score of Quidditch game"
+        }
+      ]
     },
     {
       "Name": "Certificates",
       "List": [
         {
           "Name": "Azure cloud",
-          "Value": "https://learn.microsoft.com/api/credentials/share/en-us/VitaliiZubeniuk-0165/F7D53CA3B6E4FCB2?sharingId=EC21824EEFCF5130"
+          "Value": "https://learn.microsoft.com/api/credentials/share/en-us/VitaliiZubeniuk-0165/F7D53CA3B6E4FCB2?sharingId=EC21824EEFCF5130",
+          "Description": "Azure cloud fundamentals certificate"
         }
       ]
     },
@@ -49,6 +59,14 @@
         {
           "Name": "Instagram page",
           "Value": "https://www.instagram.com/vo_vlog_insta/"
+        }
+      ]
+    },
+    {
+      "Name": "About me",
+      "List": [
+        {
+          "Description": "I am an experienced developer with main expertise in .NET. I was engaged in developing and supporting desktop applications, web applications, APIs and websites. Also worked in the client support team. "
         }
       ]
     }

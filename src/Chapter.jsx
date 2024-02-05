@@ -1,13 +1,17 @@
-import SubChapter from "./SubChapter";
 export default function Chapter({ info }) {
   return (
-    <li>
-      <b>{info.Name}</b>
-      <ul>
-        {info.List.map((i) => (
-          <SubChapter key={i.Name} info={i} />
-        ))}
-      </ul>
-    </li>
+    <div className="card-body chapter">
+      <h6 className="card-title">
+        <a
+          href={`${info.Value}`}
+          className="link-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {info.Name}
+        </a>
+      </h6>
+      <p className="card-text">{info.Description}</p>
+    </div>
   );
 }

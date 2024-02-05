@@ -1,24 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Quicksand", sans-serif;
-  line-height: 1.5;
-
-  color: #ebe7ef;
-  background: radial-gradient(#280a48, #20043d);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  min-height: 80rem;
-}
-
 header {
   text-align: center;
   margin: 3rem 0;
@@ -28,21 +9,22 @@ header h1 {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 4rem;
-  background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+  font-weight: 800;
+  background: linear-gradient(40deg, #e230f2, #e93ff9, #03d5ff, #03d5ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
-
-main {
-  width: 50%;
-  max-width: 50rem;
-  margin: auto;
+.chapter {
+  margin: 0 15%;
+  border-bottom: solid #d3d3d3 1px;
 }
-
-main h2 {
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  margin: 0 0 1.5rem 0;
-  color: #a18aba;
+.chapter:last-child {
+  border-bottom: none;
+}
+.card {
+  background-color: aliceblue;
+}
+body {
+  background-color: rgb(244, 244, 244);
 }

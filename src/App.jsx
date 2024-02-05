@@ -1,20 +1,13 @@
-import Chapter from "./Chapter.jsx";
-import MyInformation from "./assets/MyInformation.json";
+import Main from "./Main";
 
 function App() {
   return (
     <div>
-      <header>
+      <header className="--bs-info --bs-info-rgb">
         <h1>Vitalii Zubeniuk</h1>
         <h2>Pesonal portfolio site</h2>
       </header>
-      <main>
-        <ul>
-          {MyInformation.Data.map((i) => (
-            <Chapter key={i.Name} info={i} />
-          ))}
-        </ul>
-      </main>
+      <Main />
     </div>
   );
 }
