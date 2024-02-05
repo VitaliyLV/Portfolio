@@ -1,0 +1,24 @@
+{
+  "Data": [
+    {
+      "Name": "My Code",
+      "List": [
+        {
+          "Name": "GitHub profile",
+          "Value": "https://github.com/VitaliyLV"
+        },
+        {
+          "Name": "Backend API example",
+          "Value": "https://github.com/VitaliyLV/HotelsWebAPI"
+        }
+      ]
+    },
+    {
+      "Name": "My online projects",
+      "List": [
+        { "Name": "Quidditch game", "Value": "" },
+        { "Name": "Other game", "Value": "" }
+      ]
+    }
+  ]
+}
