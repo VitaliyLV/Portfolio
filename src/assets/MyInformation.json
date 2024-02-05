@@ -1,23 +1,55 @@
 {
   "Data": [
     {
-      "Name": "My Code",
+      "Name": "My code",
       "List": [
         {
           "Name": "GitHub profile",
           "Value": "https://github.com/VitaliyLV"
         },
         {
-          "Name": "Backend API example",
+          "Name": "Backend API project",
           "Value": "https://github.com/VitaliyLV/HotelsWebAPI"
+        },
+        {
+          "Name": "Solving algorithms issues project",
+          "Value": "https://github.com/VitaliyLV/DataStructuresIssues"
         }
       ]
     },
     {
-      "Name": "My online projects",
+      "Name": "Online projects",
+      "List": [{ "Name": "Quidditch game", "Value": "" }]
+    },
+    {
+      "Name": "Certificates",
       "List": [
-        { "Name": "Quidditch game", "Value": "" },
-        { "Name": "Other game", "Value": "" }
+        {
+          "Name": "Azure cloud",
+          "Value": "https://learn.microsoft.com/api/credentials/share/en-us/VitaliiZubeniuk-0165/F7D53CA3B6E4FCB2?sharingId=EC21824EEFCF5130"
+        }
+      ]
+    },
+    {
+      "Name": "Contacts",
+      "List": [
+        {
+          "Name": "LinkedIn",
+          "Value": "https://www.linkedin.com/in/vitalii-zubeniuk-81418014/"
+        }
+      ]
+    },
+    {
+      "Name": "Travelling",
+      "List": [
+        {
+          "Name": "YouTube channel",
+          "Value": "https://www.youtube.com/channel/UCA1WnvIAZAiFbSVMd3FMUDg"
+        },
+        {
+          "Name": "Instagram page",
+          "Value": "https://www.instagram.com/vo_vlog_insta/"
+        }
       ]
     }
   ]
