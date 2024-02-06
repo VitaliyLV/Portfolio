@@ -41,24 +41,17 @@
       ]
     },
     {
-      "Name": "Contacts",
+      "Name": "Travel",
       "List": [
         {
-          "Name": "LinkedIn",
-          "Value": "https://www.linkedin.com/in/vitalii-zubeniuk-81418014/"
-        }
-      ]
-    },
-    {
-      "Name": "Travelling",
-      "List": [
-        {
-          "Name": "YouTube channel",
-          "Value": "https://www.youtube.com/channel/UCA1WnvIAZAiFbSVMd3FMUDg"
+          "Name": "YouTube",
+          "Value": "https://www.youtube.com/channel/UCA1WnvIAZAiFbSVMd3FMUDg",
+          "Description": "I together with my wife have a small YouTube channel where we show our travel adventures and share our experience"
         },
         {
           "Name": "Instagram page",
-          "Value": "https://www.instagram.com/vo_vlog_insta/"
+          "Value": "https://www.instagram.com/vo_vlog_insta/",
+          "Description": "Our travel Instagram page with some amazing photos and short stories"
         }
       ]
     },
@@ -66,7 +59,9 @@
       "Name": "About me",
       "List": [
         {
-          "Description": "I am an experienced developer with main expertise in .NET. I was engaged in developing and supporting desktop applications, web applications, APIs and websites. Also worked in the client support team. "
+          "Name": "LinkedIn",
+          "Value": "https://www.linkedin.com/in/vitalii-zubeniuk-81418014/",
+          "Description": "I am an experienced developer with main expertise in .NET. I was engaged in developing and supporting desktop applications, web applications, APIs and websites. Also worked in the client support team. Main expertise: C#, ASP.NET Core API, SQL (MS SQL, Oracle), Azure, ReactJS, JavaScript."
         }
       ]
     }

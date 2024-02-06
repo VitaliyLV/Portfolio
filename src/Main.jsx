@@ -10,7 +10,7 @@ function Main() {
   function SelectionChanged(name) {
     setSelectedIndex(name);
   }
-  console.log("Executing");
+
   return (
     <main>
       <div className="card text-center">
