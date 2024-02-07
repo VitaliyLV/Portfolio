@@ -32,8 +32,8 @@
         },
         {
           "Name": "Quidditch game",
-          "Value": "https://github.com/VitaliyLV/QuidditchScore",
-          "Description": "A simple HTML + Vanilla JavaScript project for keeping score of Quidditch game. You can download it and open index.html"
+          "Value": "https://vitaliylv.github.io/QuidditchScore/",
+          "Description": "A simple HTML + Vanilla JavaScript project for keeping score of Quidditch game"
         }
       ]
     },
