@@ -6,7 +6,7 @@ function App() {
     <div>
       <header className="--bs-info --bs-info-rgb">
         <div className="d-flex justify-content-center">
-          <img className="img-thumbnail rounded-circle" src={MyImg} alt="Me" />
+          <img className="img-thumbnail" src={MyImg} alt="Me" />
           <div>
             <h1>Vitalii Zubeniuk</h1>
             <h2>Personal portfolio site</h2>
