@@ -27,7 +27,7 @@ export default function Tab({ info, selected, isSelected }) {
   return (
     <li className="nav-item">
       <button
-        className={`nav-link ${isSelected && "active"} icon-button`}
+        className={`nav-link ${isSelected && "active"} img-button`}
         onClick={selected}
       >
         {Icon && (
