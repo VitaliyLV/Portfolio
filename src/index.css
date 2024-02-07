@@ -41,6 +41,14 @@ img {
   .chapter {
     margin: 0 5%;
   }
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    filter: drop-shadow(0 2px 8px rgba(54, 54, 54, 0.5));
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 .button-icon {
   width: 1rem;
