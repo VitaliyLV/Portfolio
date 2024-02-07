@@ -2,6 +2,7 @@
   "Data": [
     {
       "Name": "My code",
+      "Icon": "IconCode",
       "List": [
         {
           "Name": "GitHub",
@@ -22,16 +23,23 @@
     },
     {
       "Name": "Online projects",
+      "Icon": "IconProject",
       "List": [
         {
+          "Name": "CheapOAir.com",
+          "Value": "https://www.cheapoair.com/",
+          "Description": "The travel company's site I worked on as a part of a team (on front-end and back-end)"
+        },
+        {
           "Name": "Quidditch game",
-          "Value": "",
-          "Description": "A simple HTML + Vanilla JavaScript project for keeping score of Quidditch game"
+          "Value": "https://github.com/VitaliyLV/QuidditchScore",
+          "Description": "A simple HTML + Vanilla JavaScript project for keeping score of Quidditch game. You can download it and open index.html"
         }
       ]
     },
     {
       "Name": "Certificates",
+      "Icon": "IconCertificate",
       "List": [
         {
           "Name": "Azure cloud",
@@ -42,6 +50,7 @@
     },
     {
       "Name": "Travel",
+      "Icon": "IconTravel",
       "List": [
         {
           "Name": "YouTube",
@@ -57,6 +66,7 @@
     },
     {
       "Name": "About me",
+      "Icon": "IconAbout",
       "List": [
         {
           "Name": "LinkedIn",

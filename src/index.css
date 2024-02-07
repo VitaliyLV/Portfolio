@@ -2,7 +2,7 @@
 
 header {
   text-align: center;
-  margin: 3rem 0;
+  margin: 3rem 0 3rem -3rem;
 }
 
 header h1 {
@@ -41,4 +41,14 @@ img {
   .chapter {
     margin: 0 5%;
   }
+}
+.button-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -1em;
+}
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }

@@ -9,7 +9,7 @@ function App() {
           <img className="img-thumbnail rounded-circle" src={MyImg} alt="Me" />
           <div>
             <h1>Vitalii Zubeniuk</h1>
-            <h2>Pesonal portfolio site</h2>
+            <h2>Personal portfolio site</h2>
           </div>
         </div>
       </header>
