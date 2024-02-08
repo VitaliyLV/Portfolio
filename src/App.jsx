@@ -9,7 +9,8 @@ function App() {
           <img className="img-thumbnail" src={MyImg} alt="Me" />
           <div>
             <h1>Vitalii Zubeniuk</h1>
-            <h2>Personal portfolio site</h2>
+            <h2>Software engineer</h2>
+            <h3>Personal portfolio</h3>
           </div>
         </div>
       </header>

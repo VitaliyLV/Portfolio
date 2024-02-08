@@ -2,13 +2,13 @@
 
 header {
   text-align: center;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 header h1 {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 800;
   background: linear-gradient(40deg, #e230f2, #e93ff9, #06c6ec, #06c6ec);
   -webkit-background-clip: text;
@@ -28,9 +28,9 @@ header h1 {
 body {
   background-color: rgb(244, 244, 244);
 }
-img {
-  height: 8rem;
+.img-thumbnail {
   width: 8rem;
+  height: 9rem;
   margin-right: 2rem;
 }
 @media (max-width: 620px) {
