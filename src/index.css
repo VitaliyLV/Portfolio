@@ -31,7 +31,7 @@ body {
 .img-thumbnail {
   width: 8rem;
   height: 9rem;
-  margin-right: 2rem;
+  margin: 0 2rem;
 }
 @media (max-width: 620px) {
   .d-flex {

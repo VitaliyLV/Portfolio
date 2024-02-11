@@ -49,22 +49,6 @@
       ]
     },
     {
-      "Name": "Travel",
-      "Icon": "IconTravel",
-      "List": [
-        {
-          "Name": "YouTube",
-          "Value": "https://www.youtube.com/channel/UCA1WnvIAZAiFbSVMd3FMUDg",
-          "Description": "I together with my wife have a small YouTube channel where we show our travel adventures and share our experience"
-        },
-        {
-          "Name": "Instagram page",
-          "Value": "https://www.instagram.com/vo_vlog_insta/",
-          "Description": "Our travel Instagram page with some amazing photos and short stories"
-        }
-      ]
-    },
-    {
       "Name": "About me",
       "Icon": "IconAbout",
       "List": [

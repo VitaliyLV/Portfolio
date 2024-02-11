@@ -1,22 +1,38 @@
-import Main from "./Main";
-import MyImg from "./assets/MyImg.jpg";
+import Chapter from "./Chapter.jsx";
+import Tab from "./Tab.jsx";
+import MyInformation from "./assets/MyInformation.json";
+import { useState } from "react";
 
 function App() {
+  const [selectedIndex, setSelectedIndex] = useState(
+    MyInformation.Data[0].Name
+  );
+  function SelectionChanged(name) {
+    setSelectedIndex(name);
+  }
+
   return (
-    <div>
-      <header className="--bs-info --bs-info-rgb">
-        <div className="d-flex justify-content-center">
-          <img className="img-thumbnail" src={MyImg} alt="Me" />
-          <div>
-            <h1>Vitalii Zubeniuk</h1>
-            <h2>Software engineer</h2>
-            <h3>Personal portfolio</h3>
-          </div>
+    <main>
+      <div className="card text-center">
+        <div className="card-header">
+          <ul className="nav justify-content-center nav-pills card-header-pills">
+            {MyInformation.Data.map((i) => (
+              <Tab
+                key={i.Name}
+                info={i}
+                isSelected={selectedIndex === i.Name}
+                selected={() => SelectionChanged(i.Name)}
+              />
+            ))}
+          </ul>
         </div>
-      </header>
-      <Main />
-    </div>
+        {MyInformation.Data.find((x) => x.Name === selectedIndex).List.map(
+          (i) => (
+            <Chapter key={i.Name} info={i} />
+          )
+        )}
+      </div>
+    </main>
   );
 }
-
 export default App;
