@@ -12,12 +12,17 @@
         {
           "Name": "Backend API project",
           "Value": "https://github.com/VitaliyLV/HotelsWebAPI",
-          "Description": "Hotels listing API using .NET 7"
+          "Description": "Hotels listing API using ASP.NET 7. CRUD operations for hotels and countries; security, logging, pagination, versioning. Testable with postman collections file."
         },
         {
           "Name": "Solving algorithms",
           "Value": "https://github.com/VitaliyLV/DataStructuresIssues",
           "Description": "Console .NET project to solve data structure and algorithms issues"
+        },
+        {
+          "Name": "MinimalAPI and Dapper",
+          "Value": "https://github.com/VitaliyLV/MinimalAPIDapper",
+          "Description": ".NET 6 Minimal API project with Dapper ORM and Local DB created with SQL project. Unit tested with xUnit and Moq."
         }
       ]
     },
